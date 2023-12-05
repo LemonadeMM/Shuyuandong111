@@ -2,7 +2,7 @@ import googlemaps
 import urllib.request
 
 # Replace 'YOUR_API_KEY' with your actual Google Maps API key
-api_key = 'AIzaSyArYxO5XWE9L8N_W77G8B8-qXiDuTqlVWI'
+api_key = 'YOUR_API_KEY'
 gmaps = googlemaps.Client(key=api_key)
 
 def download_street_view_image(location, timestamp, heading=0, pitch=0, fov=90, size=(600, 400), output_file='street_view_image.jpg'):
